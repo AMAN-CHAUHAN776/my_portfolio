@@ -5,12 +5,38 @@
     margin:0px;
     background:#220e24;
 }
-.p-1{
+.po-1{
    
     color:#639cd9;
 }
-.p-1 a{
+.po-1 h3{
+    font-size:30pt;
+}
+.po-1 a{
 text-decoration:none;
 color:#639cd9;
-font-size: 15pt;
+font-size: 22pt;
+}
+.po-2{
+    display:flex ;
+    justify-content:center;
+    justify-content:space-between;
+    padding: 17px 50px;
+
+    
+}
+.po-2 i{
+    font-size:28pt;
+    display:none;
+}
+
+
+@media only screen  and (max-width:768px){
+   
+    .po-2 {
+        display:none;
+        }
+        .po-2 i{
+   display:block;
+        }
 }
